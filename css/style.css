@@ -1,0 +1,138 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+	background: #061145;
+}
+
+header {
+	background: #fcfcfc;
+	border-style: outset;
+	border-width: 10px;
+	border-radius: 10px;
+	border-color: #120645;
+	opacity: 0.7;
+}
+
+h1 {
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	font-size: 50px;
+	color: #01306e;
+}
+
+h2 {
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	font-size: 40px;
+	color: #01306e;
+}
+
+ul {
+	list-style-type: none;
+	margin: center;
+	padding: 0;
+	overflow: hidden;
+	background: #0d1b5c;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 22px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #1a0040;
+	width: 130px;
+}
+
+#nava {
+	width: 750px;
+	margin: 0 auto;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #13236b;
+	font-size: 20px;
+}
+
+#nava li {
+	float: left;
+}
+
+#nava a {
+	display: block;
+	text-align: center;
+	width: 150px; 
+	text-decoration: none; 
+}
+
+#nava li a:hover {
+	background-color: #1a0040;
+	width: 156px;
+}
+
+#navfp {
+	width: 750px;
+	margin: 0 auto;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #13236b;
+	font-size: 20px;
+}
+
+#navfp li {
+	float: left;
+}
+
+#navfp a {
+	display: block;
+	text-align: center;
+	width: 150px; 
+	text-decoration: none; 
+}
+
+#navfp li a:hover {
+	background-color: #1a0040;
+	width: 156px;
+}
+
+img {
+	width: 200px;
+	height: 300px;
+	border-radius: 12px;
+}
+
+figcaption {
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: white;
+	font-size: 12px;
+}
+
+p {
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: white;
+	font-size: 20px;
+}
+
+p.foot{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 10px;
+	color: white;
+}
