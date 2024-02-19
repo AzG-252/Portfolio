@@ -1,0 +1,76 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+h1 {
+	font-size: 8em;
+	line-height: 0.9em;
+	font-family: "Jacquarda Bastarda 9", serif;
+	font-weight: 400;
+	font-style: normal;
+	word-spacing: 60px;
+}
+
+h2 {
+	font-size: 20em;
+	line-height: 0.7em;
+
+}
+
+footer {
+	position: absolute;
+    top: 900px;
+}
+
+span.d{
+	color: #558ca6;
+
+}
+
+span.w{
+	color: #31505e;
+
+}
+
+
+span.be{
+	font-family: "Protest Revolution", sans-serif;
+	background: -webkit-linear-gradient(#ff6666, #66ffff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	rotate: -50deg;
+	position: absolute;
+    top: 300px;
+    left: 30px;
+
+}
+
+span.happy{
+	font-family: "Micro 5", sans-serif;
+	background: -webkit-linear-gradient(#ff99ff, #9900ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	rotate: 30deg;
+	position: absolute;
+    top: 600px;
+    left: 100px;
+	letter-spacing: 10px;
+	opacity: 0.5;
+
+}
+
+#container {
+    position: relative;
+    width: 900px;
+    margin: auto;
+}
