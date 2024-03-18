@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+	
+	<title>Assignment 7</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+		<p> Tell me a cool fact </p>
+
+		<input type="text" placeholder="Enter a fact"></input>
+
+		<button id="answerButton"> Tell me... </button>
+
+		<p id="answerContainer"></p>
+  </div>
+  
+  <script>
+	var answers = [
+		"Wow", "What", "How", "I didn't know that", "Werid", "Cool dude", "How do you know that", "Cool fact", "How in the world!?", "Woah!"
+	];
+
+	document.getElementById('answerButton').onclick = function () {
+	var answer = answers[Math.floor(Math.random() * answers.length)];
+    document.getElementById('answerContainer').innerHTML = answer;
+};
+	
+  </script>
+  
+
+</body>
+	
+</html> 
