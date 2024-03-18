@@ -1,0 +1,86 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+
+body {
+	background: #5cbded;
+}
+
+p {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+#container {
+	width: 80%;
+	margin: auto;
+	background: #5cbded;
+}
+
+
+#author{
+	font-family: "Sniglet", system-ui;
+	background: white;
+    color: black;
+    margin: auto;
+    padding: 1em;
+    width: 85%;
+    border: 5px groove red;
+	float: left;
+}
+
+#mee{
+	font-family: "Truculenta", sans-serif;
+	background: white;
+    color: black;
+    margin: auto;
+    padding: 1em;
+    width: 85%;
+    border: 5px groove blue;
+	float: right;
+}
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
