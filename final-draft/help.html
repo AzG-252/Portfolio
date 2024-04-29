@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+25&display=swap" rel="stylesheet">
+	
+	<title>Help</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body id="container">
+
+	<div class="header">
+		<img class="logo" src="img/DElogo.png">
+		<h2 id="container">Project Dream Eater</h2>
+	</div>
+
+	<div id="navbar">
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="inter.html">Interveiw</a>
+		<a class="active" href="help.html">Help</a>
+	</div>
+
+	<div class="content">
+		<h3>Show an email field (allows only one email address):</h3>
+		<form action="/action_page.php">
+			<label for="email">Enter your email:</label>
+			<input type="email" id="email" name="email">
+			<input type="submit">
+</form>
+	</div>
+
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		} else {
+			navbar.classList.remove("sticky");
+			}
+		}
+	</script>
+
+</body>
+	
+<footer>&#169; Azra Galindo, 2024</footer>	
+	
+</html>  
