@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+25&display=swap" rel="stylesheet">
+	
+	<title>About</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body id="container">
+
+	<div class="header">
+		<img class="logo" src="img/DElogo.png">
+		<h2 id="container">Project Dream Eater</h2>
+	</div>
+
+	<div id="navbar">
+		<a href="index.html">Home</a>
+		<a class="active" href="about.html">About</a>
+		<a href="inter.html">Interveiw</a>
+		<a href="help.html">Help</a>
+	</div>
+
+	<div class="content">
+		<h3>The Affects of Sound on Children</h3>
+		<p>This report delves into the psychological
+		phenomenon surrounding flashing images and their potential 
+		impact on cognitive functions. While the idea of flashing 
+		images controlling one's mind might seem reminiscent of science fiction, 
+		there exists a body of research suggesting that rapid visual stimuli can indeed influence 
+		perception, attention, and even behavior. This report explores the mechanisms underlying 
+		this phenomenon, its implications for various fields, and considerations for ethical and responsible use. </p>
+	</div>
+
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		} else {
+			navbar.classList.remove("sticky");
+			}
+		}
+	</script>
+
+</body>
+	
+</html> 
