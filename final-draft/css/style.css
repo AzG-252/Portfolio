@@ -1,0 +1,225 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	font-size: 1em;
+    line-height: 1.4em;
+	background-color: black;
+}
+
+.container {
+	background-color: #8b71f5;
+}
+
+.cont {
+	background-color: #b571f5;
+}
+
+.ainer {
+	background-color: #e171f5;
+}
+
+.ner {
+	background-color: #f571e3;
+}
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+
+.header {
+	background-color: #310238;
+	padding: 30px;
+	color: white;
+	text-align: center;
+	font-family: "Jersey 25", sans-serif;
+	font-size: 30px;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #3b0074;
+	font-family: "Jersey 25", sans-serif;
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+#navbar a:hover {
+	background-color: #ab11d1;
+	color: white;
+}
+
+#navbar a.active {
+	background-color: black;
+	color: white;
+}
+
+.content {
+	font-size: 28px;
+	padding: 20px;
+	line-height: 30px;
+	font-family: "Exo 2", sans-serif;
+}
+
+.content2 {
+	font-size: 35px;
+	padding: 20px;
+	line-height: 40px;
+	font-family: "Exo 2", sans-serif;
+}
+
+iframe {
+	width: 560px;
+    height: 315px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+#myForm {
+	font-size: 28px;
+	padding: 20px;
+	line-height: 30px;
+	border-radius: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #310238;
+	color: white;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	font-family: "Exo 2", sans-serif;
+}
+
+.slog {
+	font-size: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #310238;
+	color: white;
+	font-family: "Jersey 25", sans-serif;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}
+
+.pdf {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.unimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	border-radius: 40px;
+}
+
+.middle{
+	text-align: center;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.butt {
+	background-color: #3b0074;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 40px;
+	font-family: "Exo 2", sans-serif;
+}
+
+
+footer{
+	color: #310238;
+	text-align: center;
+	font-family: "Jersey 25", sans-serif;
+	font-size: 30px;
+}
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	main{
+		display: flex;
+	}
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	#container {
+		font-size: 130px;
+	}
+	
+	iframe {
+		width: 960px;
+		height: 715px;
+	}
+	
+	.center{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+	
+} /* closes 1024px+ */
+
+
+
